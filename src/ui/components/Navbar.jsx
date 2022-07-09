@@ -11,7 +11,7 @@ export const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
       <div className="container">
-        <Link className="navbar-brand text-primary" to="/">
+        <Link className="navbar-brand text-info" to="/">
           SuperHeroes
         </Link>
         <button
@@ -62,7 +62,7 @@ export const Navbar = () => {
           </ul>
 
           <div className="navbar-nav">
-            <NavLink className="nav-item nav-link text-primary" to="/">
+            <NavLink className="nav-item nav-link text-info" to="/">
               Stuard
             </NavLink>
           </div>
