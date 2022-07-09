@@ -5,7 +5,7 @@ export const heroes = [
     publisher: "DC Comics",
     alter_ego: "Bruce Wayne",
     first_appearance: "Detective Comics #27",
-    characters: "Bruce Wayne",
+    characters: "Bruce Wayne, El caballero de la noche, El caballero oscuro",
   },
   {
     id: "dc-superman",
@@ -30,7 +30,7 @@ export const heroes = [
     alter_ego: "Alan Scott",
     first_appearance: "All-American Comics #16",
     characters:
-      "Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz",
+      "Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro",
   },
   {
     id: "dc-arrow",
@@ -86,7 +86,7 @@ export const heroes = [
     publisher: "Marvel Comics",
     alter_ego: "Peter Parker",
     first_appearance: "Amazing Fantasy #15",
-    characters: "Peter Parker",
+    characters: "Peter Parker, El Trepamuros, Arácnido, Avispón",
   },
   {
     id: "marvel-captain",
@@ -118,7 +118,7 @@ export const heroes = [
     publisher: "Marvel Comics",
     alter_ego: "Bruce Banner",
     first_appearance: "The Incredible Hulk #1",
-    characters: "Bruce Banner",
+    characters: "Bruce Banner, El Profesor, El Destructor de Mundos",
   },
   {
     id: "marvel-wolverine",
