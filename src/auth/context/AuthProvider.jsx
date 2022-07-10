@@ -6,7 +6,7 @@ import { types } from "../types/types";
 const init = () => {
   const user = JSON.parse(localStorage.getItem("user"));
   return {
-    logged: !!true,
+    logged: !!user,
     user: user,
   };
 };
