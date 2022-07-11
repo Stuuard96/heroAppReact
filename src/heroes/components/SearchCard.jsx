@@ -8,6 +8,8 @@ export const SearchCard = ({
   first_appearance,
   characters,
 }) => {
+  const heroImageUrl = `./assets/heroes/${id}.jpg`;
+
   return (
     <div className="col-12 col-lg-10 mb-4">
       <div className="card text-bg-dark animate__animated animate__fadeInRight">
@@ -15,7 +17,7 @@ export const SearchCard = ({
           <p className="card-header text-primary text-center">{publisher}</p>
           <div className="col-4 col-sm-4 col-md-4">
             <img
-              src={`./assets/heroes/${id}.jpg`}
+              src={heroImageUrl}
               className="img-fluid mx-auto d-block" //rounded-start
               alt={superhero}
             />
