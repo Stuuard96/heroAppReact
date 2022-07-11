@@ -8,6 +8,7 @@ export const HeroPage = () => {
   const hero = useMemo(() => getHeroById(id), [id]);
   const { superhero, publisher, alter_ego, first_appearance, characters } =
     hero;
+  const heroImageUrl = `/assets/heroes/${id}.jpg`;
 
   const handleReturn = () => {
     navigate(-1);
@@ -26,11 +27,7 @@ export const HeroPage = () => {
               {superhero}
             </h1>
             <div className="col-12 col-sm-3">
-              <img
-                src={`/assets/heroes/${id}.jpg`}
-                alt={superhero}
-                className="img-fluid"
-              />
+              <img src={heroImageUrl} alt={superhero} className="img-fluid" />
             </div>
             <div className="col-12 col-sm-9 row align-items-center">
               <div className="card-body">
