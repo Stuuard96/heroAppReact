@@ -26,8 +26,7 @@ https://article-app-react.netlify.app/home
 ## Vista previa del proyecto
 Desktop             |  Mobile
 :-------------------------:|:-------------------------:
-[![web.png](https://i.postimg.cc/g0gDTPVF/web.png)](https://postimg.cc/f30mVpqB)  |  [![mobile.png](https://i.postimg.cc/1zRxFsmL/mobile.png)]
-(https://postimg.cc/5XrkdcF3)
+[![webb.png](https://i.postimg.cc/yxZtBYYK/webb.png)](https://postimg.cc/sG3w4zhH)  |  [![mobile.png](https://i.postimg.cc/7Y4TSt8P/mobile.png)](https://postimg.cc/Wt93vn1x)
 
 ## Instalación
 - git clone https://github.com/Stuuard96/heroAppReact.git
