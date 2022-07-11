@@ -10,7 +10,7 @@ de heroes en el cual los lista según lo buscado y también cuenta
 con una sección de detalles de cada heroe.
 
 ## Link del proyecto
-https://article-app-react.netlify.app/home
+https://heroreactapp.netlify.app
 
 ## Funcionalidades
 - Navegabilidad utilizando rutas de React-router-dom
@@ -22,6 +22,7 @@ https://article-app-react.netlify.app/home
 ## Librerías
 - https://getbootstrap.com/
 - https://reactrouter.com/docs/en/v6
+- https://www.npmjs.com/package/query-string
 
 ## Vista previa del proyecto
 Desktop             |  Mobile
@@ -31,5 +32,6 @@ Desktop             |  Mobile
 ## Instalación
 - git clone https://github.com/Stuuard96/heroAppReact.git
 - yarn install 
+- yarn add query-string
 - yarn add react-router-dom@6
 - yarn dev
