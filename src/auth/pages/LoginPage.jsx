@@ -7,8 +7,9 @@ export const LoginPage = () => {
   const navigate = useNavigate();
 
   const handleLogin = () => {
+    const lastPath = localStorage.getItem("lastPath") || "/";
     login("Stuard Quiroz");
-    navigate("/", { replace: true });
+    navigate(lastPath, { replace: true });
   };
 
   return (
