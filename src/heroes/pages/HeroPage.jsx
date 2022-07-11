@@ -8,7 +8,7 @@ export const HeroPage = () => {
   const hero = useMemo(() => getHeroById(id), [id]);
   const { superhero, publisher, alter_ego, first_appearance, characters } =
     hero;
-  const heroImageUrl = `../assets/heroes/${id}.jpg`;
+  const heroImageUrl = `/dist/assets/heroes/${id}.jpg`;
 
   const handleReturn = () => {
     navigate(-1);
