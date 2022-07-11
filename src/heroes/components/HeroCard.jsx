@@ -8,7 +8,7 @@ export const HeroCard = ({
   first_appearance,
   characters,
 }) => {
-  const heroImageUrl = `/dist/assets/heroes/${id}.jpg`;
+  const heroImageUrl = `./assets/heroes/${id}.jpg`;
   const charactersByHero = <p className="card-text">{characters}</p>;
 
   return (
