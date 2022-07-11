@@ -15,7 +15,7 @@ export const SearchCard = ({
           <p className="card-header text-primary text-center">{publisher}</p>
           <div className="col-4 col-sm-4 col-md-4">
             <img
-              src={`/assets/heroes/${id}.jpg`}
+              src={`../assets/heroes/${id}.jpg`}
               className="img-fluid mx-auto d-block" //rounded-start
               alt={superhero}
             />
